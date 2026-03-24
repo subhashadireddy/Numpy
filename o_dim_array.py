@@ -4,7 +4,9 @@ print(array.ndim)
 print(array)
 
 #2d array
-array1 = np.array([[1,2,3],[2,5,6],[8,3,6]])
+array1 = np.array([[1,2,3],
+                   [2,5,6],
+                   [8,3,6]])
 print(array1)
 print(array1.ndim)
 
