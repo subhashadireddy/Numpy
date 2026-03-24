@@ -22,4 +22,5 @@ print(odds)
 
 #to preserve original shape 
 adults = np.where(ages >= 18,ages,0)
+#any value that does not match the codition it is replaced by the value (0)
 print(adults)
